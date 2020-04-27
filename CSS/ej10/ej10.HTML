@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<title> Ejercicio 10 - CSS</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+		<style>
+
+html, body {
+height:100%;
+}
+div.fondo
+{	
+	height: 100%;
+	background-color:lightgreen;
+	width: 80%;
+	margin-left:10%;
+	  float: left;
+}
+div.clase1
+{
+	position: absolute;
+	top:50%;
+	right:65%;
+	background-color: green;
+	width: 20%;
+	height: 20%;
+	overflow: auto;
+	font-size:1vw;
+	z-index: 3;
+}
+div.clase2
+{
+	position: absolute;
+	height: 20%;
+	background-color: yellow;
+	font-size:20px;
+	width: 50%;
+	top:40%;
+	left:20%;
+}
+
+div.clase3
+{
+	position: absolute;
+	width: 30%;
+	height: 30%;
+	position:fixed;
+	top:50%;
+	left:55%;
+	opacity:0.5;
+	overflow-y:auto;
+	visibility: visible;
+	z-index: 10;
+	background-color: grey;
+}
+		</style>
+
+</style>
+	</head>
+
+	<body>
+		
+	<div class="fondo">
+
+
+		<h1 style="width:100%"> Posicionamiento absoluto pero adaptable a la resolucion de pantalla. </h1>
+
+		<div class="clase1">CONTENEDOR 1</div>
+
+		<div class="clase2">CONTENEDOR 2</div>
+
+		<div class="clase3">CONTENEDOR 3</div>
+
+
+
+
+
+	</div>
+	</body>
+
+</html>

@@ -1,0 +1,18 @@
+h1 {
+	text-align:left;
+	font-size: 35px;
+	color:pink;
+	text-align:center;
+	background-color:seashell;
+}
+
+p{
+	background-color:salmon;
+text-align:left; 
+font-size:18px;
+color:mistyrose;
+font-style: italic;
+border-style:outset;
+border-width:5px;
+border-color:salmon;
+}

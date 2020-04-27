@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<title> Ejercicio 8 - CSS</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+		<style>
+div.fondo
+{	
+
+	background-color:lightyellow;
+	width: 80%;
+	margin-left:10%;
+	  float: left;
+}
+div.capsula
+{
+	 float: left;
+	 margin:10px;
+
+}
+.btopcion
+{
+	background-color: pink;
+	border-color: pink;
+	color:black;
+}
+
+.btopcion:hover
+{
+background-color: salmon;
+color:white;
+}
+.btopcion:active
+{
+background-color:red;
+}
+div.nuevaFila
+{
+margin-left: 10px;
+padding-top:20px;
+margin-bottom:20px;
+clear:both;
+}
+input {
+display:block;
+width:150px;
+}
+input:focus
+{
+background-color:#11111111;
+}
+		</style>
+
+</style>
+	</head>
+
+	<body>
+		
+<h1 style="width:100%"> Selectores de eventos: </h1>
+
+		<div class="fondo">
+			
+			
+			<div class="capsula"><input type="button" class="btopcion" value="Opcion 1" href=""></div>
+
+			<div class="capsula"><input type="button" class="btopcion" value="Opcion 2" href=""></div>
+			<div class="capsula"><input type="button" class="btopcion" value="Opcion 3" href=""></div>
+
+			<div class="nuevaFila">
+				Usuario
+				<input type="text" ><br>
+				Contraseña
+				<input type="password" name="">
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</body>
+
+</html>
